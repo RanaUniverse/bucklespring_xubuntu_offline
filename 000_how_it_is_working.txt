@@ -1,0 +1,19 @@
+
+
+sudo apt-get install --print-uris --yes libopenal-dev libalure-dev libxtst-dev pkg-config | grep ^\' | cut -d\' -f2 > packages.txt
+
+
+By run this i got the packages list. 
+
+then i will use another things
+
+mkdir dependencies
+cd dependencies
+wget -i ../packages.txt
+
+
+I will unzip the zip of the github repo of official https://github.com/zevv/bucklespring.
+
+
+
+
