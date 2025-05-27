@@ -3,7 +3,7 @@ echo "Creating the directory if it doesn't already exist...🍌"
 mkdir -pv ~/.apps_and_softwares
 
 
-sudo dpkg -i dependencies/*.deb
+# sudo dpkg -i dependencies/*.deb
 
 
 # Check for old bucklespring installation, and unzip is both connected.
@@ -22,18 +22,13 @@ unzip -qq bucklespring*.zip -d ~/.apps_and_softwares/
 
 echo "Bucklespring extraction completed successfully! 🎉"
 
-cd ~/.apps_and_softwares/bucklespring*
-
 echo "The Alias for this bucklespring is making."
+./terminal_alias_*.sh 
 
-./terminal_alias.sh 
+cd ~/.apps_and_softwares/bucklespring*
 
 make
 
 ./buckle
 
 make libinput=1
-
-
-
-
