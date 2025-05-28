@@ -2,12 +2,17 @@
 
     * Xubuntu 24.04 OS
 
+
+
+
 ## What is the logic of this repo ?
 
-I will make one `installation_script_bucklespring_online.sh` which will offlineinstall the bucklespring in my linux and a alias so that i can start this quickly.
+This My Script is designed from the: [Bucklespring Github Repo](https://github.com/zevv/bucklespring)
+
+I will make one `installation_script_bucklespring_online.sh` which will install the bucklespring in my linux Xubuntu and an alias so that i can start this quickly.
 
 
-To Start This i need to go to the dir afer compilation.
+To Start This i need to go to the directory afer compilation.
 
 ```
 nohup ./buckle &
