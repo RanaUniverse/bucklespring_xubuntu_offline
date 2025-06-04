@@ -3,8 +3,8 @@ echo "Creating the directory if it doesn't already exist...🍌"
 mkdir -pv ~/.apps_and_softwares
 
 
-sudo dpkg -i dependencies/*.deb
-
+# sudo dpkg -i dependencies/*.deb
+sudo apt install ./dependencies/*.deb
 
 # Check for old bucklespring installation, and unzip is both connected.
 
